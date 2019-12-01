@@ -93,7 +93,6 @@ function pickMystery(arrayWithSuspects, arrayWithWeapons, arrayWithRooms) {
 
 
 // ITERATION 3
-
 // prints certain positions of arrays suspect, weapon and room
 function revealMystery(envelope) {
     console.log(`${envelope.suspect.firstName} ${envelope.suspect.lastName} killed Mr. Boddy using the ${envelope.weapon.name} in the ${envelope.room.name}!`)
